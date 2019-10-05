@@ -1,0 +1,225 @@
+/* Copyright 2018 BlueCat Networks. All rights reserved. */
+/* Custom styles for your page go in here. */
+table {
+    font-family: verdana,arial,sans-serif;
+    font-size:14px;
+    margin: 10px;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(52, 177, 235);
+    padding: 5px;
+  }
+
+table.dataframe:first-of-type {
+  text-align: center;
+}
+
+
+tr:nth-child(even) {
+    background-color: #0073ae;
+}
+
+#update {
+    width: 40%;
+    float: left;
+}
+
+#daemon-status-select input.btn-primary {
+    width: 100px;
+    float: left;
+    margin: 5px;
+}
+
+#Debug {
+  clear: both;
+}
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+}
+.lds-ellipsis div {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+.lds-ellipsis div:nth-child(1) {
+  left: 6px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(2) {
+  left: 6px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(3) {
+  left: 26px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+.lds-ellipsis div:nth-child(4) {
+  left: 45px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(10px, 0);
+  }
+}
+
+@keyframes lds-blocks {
+  0% {
+    background: #0073ae;
+  }
+  12.5% {
+    background: #0073ae;
+  }
+  12.625% {
+    background: #ececed;
+  }
+  100% {
+    background: #ececed;
+  }
+}
+@-webkit-keyframes lds-blocks {
+  0% {
+    background: #0073ae;
+  }
+  12.5% {
+    background: #0073ae;
+  }
+  12.625% {
+    background: #ececed;
+  }
+  100% {
+    background: #ececed;
+  }
+}
+.lds-blocks {
+  position: relative;
+}
+.lds-blocks div {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #ececed;
+  -webkit-animation: lds-blocks 1s linear infinite;
+  animation: lds-blocks 1s linear infinite;
+}
+.lds-blocks {
+  width: 2px !important;
+  height: 2px !important;
+  -webkit-transform: translate(-10px, -10px) scale(1) translate(10px, 10px);
+  transform: translate(-10px, -10px) scale(1) translate(10px, 10px);
+}
+
+
+
+@keyframes lds-blocks {
+  0% {
+    background: #0073ae;
+  }
+  12.5% {
+    background: #0073ae;
+  }
+  12.625% {
+    background: #ececed;
+  }
+  100% {
+    background: #ececed;
+  }
+}
+@-webkit-keyframes lds-blocks {
+  0% {
+    background: #0073ae;
+  }
+  12.5% {
+    background: #0073ae;
+  }
+  12.625% {
+    background: #ececed;
+  }
+  100% {
+    background: #ececed;
+  }
+}
+.lds-blocks {
+  position: relative;
+}
+.lds-blocks div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #ececed;
+  -webkit-animation: lds-blocks 1.2s linear infinite;
+  animation: lds-blocks 1.2s linear infinite;
+}
+.lds-blocks {
+  width: 17px !important;
+  height: 17px !important;
+  -webkit-transform: translate(-8.5px, -8.5px) scale(0.085) translate(8.5px, 8.5px);
+  transform: translate(-8.5px, -8.5px) scale(0.085) translate(8.5px, 8.5px);
+}
+
+#spangif {
+  float : left;
+}
+
+#update p {
+  margin : 0;
+}
+#update button {
+  width: 70%;
+  margin : 5px;
+}
+
+input#submit {
+  float: left;
+  width: 45%;
+}
+
+input#logout {
+  float: right;
+  width : 45%;
+}
+
+#Debug table {
+  width: 200%;
+}
+
+#Debug td {
+  word-break: break-all;
+}
+
+.debug-table td {
+  width: 100%;
+  height: 100%;
+  max-height: 50%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
